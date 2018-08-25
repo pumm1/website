@@ -4,6 +4,10 @@ div {
     height: 400;
  }
 
+ p {
+   color: blue;
+ }
+
  .container {
     width: 200px;
     height: 100px;
@@ -16,6 +20,11 @@ div {
     background-color: red;
     position: absolute;
     top: 10px;
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .second-box-container {
@@ -24,7 +33,12 @@ div {
     background-color: yellow;
     position: absolute;
     left: 250px;
-    top: 10px
+    top: 10px;
+    border-style: solid;
+    border-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .third-box-container {
@@ -34,5 +48,10 @@ div {
     position: absolute;
     left: 500px;
     top: 10px;
+    border-style: solid;
+    border-color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
